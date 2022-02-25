@@ -3,9 +3,9 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-<div class="row">
-    <div class="col"></div>
-    <div class="col">
+<div class="row justify-content-center">
+    <div class="col-2"></div>
+    <div class="col-8">
 @foreach (var kas in Model.Kassen)
 {
     <div class="row mb-3">
@@ -13,5 +13,5 @@
     </div>
 }
     </div>
-<div class="col"></div>
+    <div class="col-2"></div>
 </div>
