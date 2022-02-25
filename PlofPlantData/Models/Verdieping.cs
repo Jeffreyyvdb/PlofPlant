@@ -9,6 +9,12 @@ namespace PlofPlantData.Models
 {
     public class Verdieping
     {
+        public Verdieping()
+        {
+            VerdiepingData = new List<VerdiepingData>();
+            Planten = new List<Plant>();
+        }
+
         [Key]
         public int Id { get; set; }
         public string Naam { get; set; }

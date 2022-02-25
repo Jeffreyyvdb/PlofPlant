@@ -9,6 +9,12 @@ namespace PlofPlantData.Models
 {
     public class Kas
     {
+        public Kas()
+        {
+            Verdiepingen = new List<Verdieping>();
+            KasData = new List<KasData>();
+        }
+
         [Key]
         public int Id { get; set; }
         public string Naam { get; set; }
