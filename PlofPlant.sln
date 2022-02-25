@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlofPlantWeb", "PlofPlantWeb\PlofPlantWeb.csproj", "{81317487-BD9A-4C62-AF09-63CF460E449E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlofPlantData", "PlofPlantData\PlofPlantData.csproj", "{7494E7A4-F9D7-4278-9F27-D1B137C183A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81317487-BD9A-4C62-AF09-63CF460E449E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81317487-BD9A-4C62-AF09-63CF460E449E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81317487-BD9A-4C62-AF09-63CF460E449E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81317487-BD9A-4C62-AF09-63CF460E449E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7494E7A4-F9D7-4278-9F27-D1B137C183A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7494E7A4-F9D7-4278-9F27-D1B137C183A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7494E7A4-F9D7-4278-9F27-D1B137C183A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7494E7A4-F9D7-4278-9F27-D1B137C183A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54FC46FD-D0AD-4C19-AB55-2654776CF6A2}
+	EndGlobalSection
+EndGlobal
