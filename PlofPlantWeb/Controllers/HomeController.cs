@@ -17,7 +17,11 @@ namespace PlofPlantWeb.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var model = new HomePage();
+
+            model.Kassen = _db.Kassen.ToList();
+
+            return View(model);
         }
 
         public IActionResult Privacy()
